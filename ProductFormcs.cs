@@ -126,5 +126,30 @@ namespace Kursach_Jewelry
             textBox4.Clear();
             textBox5.Clear();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
+            {
+
+                var users = db.products.OrderByDescending(u => u.PriceProduct).ToList();
+                dataGridView1.DataSource = users;
+
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
+            {
+
+                var users = db.products.OrderBy(m => m.PriceProduct).ToList();
+                dataGridView1.DataSource = users;
+
+
+            }
+
+        }
     }
 }

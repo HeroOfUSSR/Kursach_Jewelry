@@ -28,232 +28,280 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            CleareBtn = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            Edit = new Button();
-            DeleteButton = new Button();
-            addClick = new Button();
-            textBox1 = new TextBox();
-            textBox4 = new TextBox();
-            label1 = new Label();
-            label4 = new Label();
-            textBox5 = new TextBox();
-            label5 = new Label();
-            id_product = new DataGridViewTextBoxColumn();
-            NameProduct = new DataGridViewTextBoxColumn();
-            PriceProduct = new DataGridViewTextBoxColumn();
-            TypeProduct = new DataGridViewTextBoxColumn();
-            CountProduct = new DataGridViewTextBoxColumn();
-            MaterialID = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.id_product = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NameProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PriceProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TypeProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CountProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaterialID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CleareBtn = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Edit = new System.Windows.Forms.Button();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.addClick = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { id_product, NameProduct, PriceProduct, TypeProduct, CountProduct, MaterialID });
-            dataGridView1.Location = new Point(-2, -1);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(521, 453);
-            dataGridView1.TabIndex = 64;
-            dataGridView1.MouseClick += dataGridView1_MouseClick;
-            // 
-            // CleareBtn
-            // 
-            CleareBtn.Location = new Point(652, 324);
-            CleareBtn.Name = "CleareBtn";
-            CleareBtn.Size = new Size(108, 47);
-            CleareBtn.TabIndex = 63;
-            CleareBtn.Text = "Очистить поля";
-            CleareBtn.UseVisualStyleBackColor = true;
-            CleareBtn.Click += CleareBtn_Click;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(660, 64);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 62;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(660, 35);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 61;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(525, 38);
-            label3.Name = "label3";
-            label3.Size = new Size(75, 15);
-            label3.TabIndex = 60;
-            label3.Text = "Цена товара";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(525, 9);
-            label2.Name = "label2";
-            label2.Size = new Size(71, 15);
-            label2.TabIndex = 59;
-            label2.Text = "Имя товара";
-            // 
-            // Edit
-            // 
-            Edit.Location = new Point(652, 271);
-            Edit.Name = "Edit";
-            Edit.Size = new Size(108, 47);
-            Edit.TabIndex = 58;
-            Edit.Text = "Редактирование";
-            Edit.UseVisualStyleBackColor = true;
-            Edit.Click += Edit_Click;
-            // 
-            // DeleteButton
-            // 
-            DeleteButton.Location = new Point(652, 221);
-            DeleteButton.Name = "DeleteButton";
-            DeleteButton.Size = new Size(108, 44);
-            DeleteButton.TabIndex = 57;
-            DeleteButton.Text = "Удалить";
-            DeleteButton.UseVisualStyleBackColor = true;
-            DeleteButton.Click += DeleteButton_Click;
-            // 
-            // addClick
-            // 
-            addClick.Location = new Point(652, 177);
-            addClick.Name = "addClick";
-            addClick.Size = new Size(108, 38);
-            addClick.TabIndex = 56;
-            addClick.Text = "Добавить";
-            addClick.UseVisualStyleBackColor = true;
-            addClick.Click += addClick_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(660, 6);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 68;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(660, 88);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 67;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(525, 96);
-            label1.Name = "label1";
-            label1.Size = new Size(86, 15);
-            label1.TabIndex = 66;
-            label1.Text = "Кол-во товара";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(525, 67);
-            label4.Name = "label4";
-            label4.Size = new Size(67, 15);
-            label4.TabIndex = 65;
-            label4.Text = "Тип товара";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(660, 117);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 70;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(525, 125);
-            label5.Name = "label5";
-            label5.Size = new Size(107, 15);
-            label5.TabIndex = 69;
-            label5.Text = "Номер материала";
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id_product,
+            this.NameProduct,
+            this.PriceProduct,
+            this.TypeProduct,
+            this.CountProduct,
+            this.MaterialID});
+            this.dataGridView1.Location = new System.Drawing.Point(-2, -1);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(521, 453);
+            this.dataGridView1.TabIndex = 64;
             // 
             // id_product
             // 
-            id_product.DataPropertyName = "IDProducts";
-            id_product.HeaderText = "Номер продукта";
-            id_product.Name = "id_product";
-            id_product.ReadOnly = true;
-            id_product.Visible = false;
+            this.id_product.DataPropertyName = "IDProducts";
+            this.id_product.HeaderText = "Номер продукта";
+            this.id_product.Name = "id_product";
+            this.id_product.ReadOnly = true;
+            this.id_product.Visible = false;
             // 
             // NameProduct
             // 
-            NameProduct.DataPropertyName = "NameProduct";
-            NameProduct.HeaderText = "Имя продукта";
-            NameProduct.Name = "NameProduct";
-            NameProduct.ReadOnly = true;
+            this.NameProduct.DataPropertyName = "NameProduct";
+            this.NameProduct.HeaderText = "Имя продукта";
+            this.NameProduct.Name = "NameProduct";
+            this.NameProduct.ReadOnly = true;
             // 
             // PriceProduct
             // 
-            PriceProduct.DataPropertyName = "PriceProduct";
-            PriceProduct.HeaderText = "Цена продукта";
-            PriceProduct.Name = "PriceProduct";
-            PriceProduct.ReadOnly = true;
+            this.PriceProduct.DataPropertyName = "PriceProduct";
+            this.PriceProduct.HeaderText = "Цена продукта";
+            this.PriceProduct.Name = "PriceProduct";
+            this.PriceProduct.ReadOnly = true;
             // 
             // TypeProduct
             // 
-            TypeProduct.DataPropertyName = "TypeProduct";
-            TypeProduct.HeaderText = "Тип продукта";
-            TypeProduct.Name = "TypeProduct";
-            TypeProduct.ReadOnly = true;
+            this.TypeProduct.DataPropertyName = "TypeProduct";
+            this.TypeProduct.HeaderText = "Тип продукта";
+            this.TypeProduct.Name = "TypeProduct";
+            this.TypeProduct.ReadOnly = true;
             // 
             // CountProduct
             // 
-            CountProduct.DataPropertyName = "CountProduct";
-            CountProduct.HeaderText = "Количество продукта";
-            CountProduct.Name = "CountProduct";
-            CountProduct.ReadOnly = true;
+            this.CountProduct.DataPropertyName = "CountProduct";
+            this.CountProduct.HeaderText = "Количество продукта";
+            this.CountProduct.Name = "CountProduct";
+            this.CountProduct.ReadOnly = true;
             // 
             // MaterialID
             // 
-            MaterialID.DataPropertyName = "MaterialID";
-            MaterialID.HeaderText = "Номер материала";
-            MaterialID.Name = "MaterialID";
-            MaterialID.ReadOnly = true;
+            this.MaterialID.DataPropertyName = "MaterialID";
+            this.MaterialID.HeaderText = "Номер материала";
+            this.MaterialID.Name = "MaterialID";
+            this.MaterialID.ReadOnly = true;
+            // 
+            // CleareBtn
+            // 
+            this.CleareBtn.Location = new System.Drawing.Point(11, 161);
+            this.CleareBtn.Name = "CleareBtn";
+            this.CleareBtn.Size = new System.Drawing.Size(239, 25);
+            this.CleareBtn.TabIndex = 63;
+            this.CleareBtn.Text = "Очистить поля";
+            this.CleareBtn.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(150, 78);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 62;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(150, 49);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.TabIndex = 61;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 52);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.TabIndex = 60;
+            this.label3.Text = "Цена товара";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 15);
+            this.label2.TabIndex = 59;
+            this.label2.Text = "Имя товара";
+            // 
+            // Edit
+            // 
+            this.Edit.Location = new System.Drawing.Point(12, 70);
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(238, 26);
+            this.Edit.TabIndex = 58;
+            this.Edit.Text = "Редактирование";
+            this.Edit.UseVisualStyleBackColor = true;
+            // 
+            // DeleteButton
+            // 
+            this.DeleteButton.Location = new System.Drawing.Point(12, 39);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(239, 25);
+            this.DeleteButton.TabIndex = 57;
+            this.DeleteButton.Text = "Удалить";
+            this.DeleteButton.UseVisualStyleBackColor = true;
+            // 
+            // addClick
+            // 
+            this.addClick.Location = new System.Drawing.Point(11, 7);
+            this.addClick.Name = "addClick";
+            this.addClick.Size = new System.Drawing.Size(240, 26);
+            this.addClick.TabIndex = 56;
+            this.addClick.Text = "Добавить";
+            this.addClick.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(150, 20);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 68;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(150, 107);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.TabIndex = 67;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 110);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 15);
+            this.label1.TabIndex = 66;
+            this.label1.Text = "Кол-во товара";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 81);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 15);
+            this.label4.TabIndex = 65;
+            this.label4.Text = "Тип товара";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(150, 136);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 23);
+            this.textBox5.TabIndex = 70;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 139);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(107, 15);
+            this.label5.TabIndex = 69;
+            this.label5.Text = "Номер материала";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(525, 6);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(263, 172);
+            this.panel1.TabIndex = 71;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.addClick);
+            this.panel2.Controls.Add(this.CleareBtn);
+            this.panel2.Controls.Add(this.DeleteButton);
+            this.panel2.Controls.Add(this.Edit);
+            this.panel2.Location = new System.Drawing.Point(525, 240);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(263, 198);
+            this.panel2.TabIndex = 72;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(238, 26);
+            this.button2.TabIndex = 65;
+            this.button2.Text = "Сортировка по убыванию";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(11, 129);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(240, 26);
+            this.button1.TabIndex = 64;
+            this.button1.Text = "Сортировка по возрастанию";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ProductFormcs
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox5);
-            Controls.Add(label5);
-            Controls.Add(textBox1);
-            Controls.Add(textBox4);
-            Controls.Add(label1);
-            Controls.Add(label4);
-            Controls.Add(dataGridView1);
-            Controls.Add(CleareBtn);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(Edit);
-            Controls.Add(DeleteButton);
-            Controls.Add(addClick);
-            Name = "ProductFormcs";
-            Text = "ProductFormcs";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Name = "ProductFormcs";
+            this.Text = "ProductFormcs";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -279,5 +327,9 @@
         private DataGridViewTextBoxColumn TypeProduct;
         private DataGridViewTextBoxColumn CountProduct;
         private DataGridViewTextBoxColumn MaterialID;
+        private Panel panel1;
+        private Panel panel2;
+        private Button button2;
+        private Button button1;
     }
 }

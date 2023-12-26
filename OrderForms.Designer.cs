@@ -28,262 +28,299 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CleareBtn = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            Edit = new Button();
-            DeleteButton = new Button();
-            addClick = new Button();
-            dataGridView1 = new DataGridView();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            label5 = new Label();
-            label6 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
-            ClientId = new DataGridViewTextBoxColumn();
-            DateOrder = new DataGridViewTextBoxColumn();
-            CountOrder = new DataGridViewTextBoxColumn();
-            MasterOrder = new DataGridViewTextBoxColumn();
-            OrderCoust = new DataGridViewTextBoxColumn();
-            ProductId = new DataGridViewTextBoxColumn();
-            idORder = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.CleareBtn = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Edit = new System.Windows.Forms.Button();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.addClick = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ClientId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DateOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CountOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MasterOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OrderCoust = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idORder = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // CleareBtn
             // 
-            CleareBtn.Location = new Point(695, 391);
-            CleareBtn.Name = "CleareBtn";
-            CleareBtn.Size = new Size(108, 47);
-            CleareBtn.TabIndex = 64;
-            CleareBtn.Text = "Очистить поля";
-            CleareBtn.UseVisualStyleBackColor = true;
-            CleareBtn.Click += CleareBtn_Click;
+            this.CleareBtn.Location = new System.Drawing.Point(16, 178);
+            this.CleareBtn.Name = "CleareBtn";
+            this.CleareBtn.Size = new System.Drawing.Size(204, 27);
+            this.CleareBtn.TabIndex = 64;
+            this.CleareBtn.Text = "Очистить поля";
+            this.CleareBtn.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(788, 64);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 63;
+            this.textBox3.Location = new System.Drawing.Point(120, 73);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 63;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(788, 35);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 62;
+            this.textBox2.Location = new System.Drawing.Point(120, 44);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.TabIndex = 62;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(788, 3);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 61;
+            this.textBox1.Location = new System.Drawing.Point(120, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 61;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(653, 67);
-            label3.Name = "label3";
-            label3.Size = new Size(46, 15);
-            label3.TabIndex = 60;
-            label3.Text = "Кол-во";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 15);
+            this.label3.TabIndex = 60;
+            this.label3.Text = "Кол-во";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(653, 38);
-            label2.Name = "label2";
-            label2.Size = new Size(69, 15);
-            label2.TabIndex = 59;
-            label2.Text = "Дата заказа";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(4, 47);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 15);
+            this.label2.TabIndex = 59;
+            this.label2.Text = "Дата заказа";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(653, 6);
-            label1.Name = "label1";
-            label1.Size = new Size(92, 15);
-            label1.TabIndex = 58;
-            label1.Text = "Номер клиента";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(4, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 15);
+            this.label1.TabIndex = 58;
+            this.label1.Text = "Номер клиента";
             // 
             // Edit
             // 
-            Edit.Location = new Point(695, 338);
-            Edit.Name = "Edit";
-            Edit.Size = new Size(108, 47);
-            Edit.TabIndex = 57;
-            Edit.Text = "Редактирование";
-            Edit.UseVisualStyleBackColor = true;
-            Edit.Click += Edit_Click;
+            this.Edit.Location = new System.Drawing.Point(16, 87);
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(204, 28);
+            this.Edit.TabIndex = 57;
+            this.Edit.Text = "Редактирование";
+            this.Edit.UseVisualStyleBackColor = true;
             // 
             // DeleteButton
             // 
-            DeleteButton.Location = new Point(695, 288);
-            DeleteButton.Name = "DeleteButton";
-            DeleteButton.Size = new Size(108, 44);
-            DeleteButton.TabIndex = 56;
-            DeleteButton.Text = "Удалить";
-            DeleteButton.UseVisualStyleBackColor = true;
-            DeleteButton.Click += DeleteButton_Click;
+            this.DeleteButton.Location = new System.Drawing.Point(16, 50);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(204, 31);
+            this.DeleteButton.TabIndex = 56;
+            this.DeleteButton.Text = "Удалить";
+            this.DeleteButton.UseVisualStyleBackColor = true;
             // 
             // addClick
             // 
-            addClick.Location = new Point(695, 244);
-            addClick.Name = "addClick";
-            addClick.Size = new Size(108, 38);
-            addClick.TabIndex = 55;
-            addClick.Text = "Добавить";
-            addClick.UseVisualStyleBackColor = true;
-            addClick.Click += addClick_Click;
+            this.addClick.Location = new System.Drawing.Point(16, 14);
+            this.addClick.Name = "addClick";
+            this.addClick.Size = new System.Drawing.Size(204, 30);
+            this.addClick.TabIndex = 55;
+            this.addClick.Text = "Добавить";
+            this.addClick.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ClientId, DateOrder, CountOrder, MasterOrder, OrderCoust, ProductId, idORder });
-            dataGridView1.Location = new Point(-5, 3);
-            dataGridView1.MaximumSize = new Size(642, 449);
-            dataGridView1.MinimumSize = new Size(642, 449);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(642, 449);
-            dataGridView1.TabIndex = 65;
-            dataGridView1.MouseClick += dataGridView1_MouseClick;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(788, 116);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 70;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(788, 150);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 69;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(653, 155);
-            label5.Name = "label5";
-            label5.Size = new Size(98, 15);
-            label5.TabIndex = 67;
-            label5.Text = "Номер продукта";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(653, 96);
-            label6.Name = "label6";
-            label6.Size = new Size(93, 15);
-            label6.TabIndex = 66;
-            label6.Text = "Номер мастера";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(788, 88);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 72;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(653, 124);
-            label4.Name = "label4";
-            label4.Size = new Size(82, 15);
-            label4.TabIndex = 71;
-            label4.Text = "Сумма заказа";
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ClientId,
+            this.DateOrder,
+            this.CountOrder,
+            this.MasterOrder,
+            this.OrderCoust,
+            this.ProductId,
+            this.idORder});
+            this.dataGridView1.Location = new System.Drawing.Point(-5, 3);
+            this.dataGridView1.MaximumSize = new System.Drawing.Size(642, 449);
+            this.dataGridView1.MinimumSize = new System.Drawing.Size(642, 449);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(642, 449);
+            this.dataGridView1.TabIndex = 65;
             // 
             // ClientId
             // 
-            ClientId.DataPropertyName = "ClientID";
-            ClientId.HeaderText = "Номер клиента";
-            ClientId.Name = "ClientId";
-            ClientId.ReadOnly = true;
+            this.ClientId.DataPropertyName = "ClientID";
+            this.ClientId.HeaderText = "Номер клиента";
+            this.ClientId.Name = "ClientId";
+            this.ClientId.ReadOnly = true;
             // 
             // DateOrder
             // 
-            DateOrder.DataPropertyName = "DateOrder";
-            DateOrder.HeaderText = "Дата заказа";
-            DateOrder.Name = "DateOrder";
-            DateOrder.ReadOnly = true;
+            this.DateOrder.DataPropertyName = "DateOrder";
+            this.DateOrder.HeaderText = "Дата заказа";
+            this.DateOrder.Name = "DateOrder";
+            this.DateOrder.ReadOnly = true;
             // 
             // CountOrder
             // 
-            CountOrder.DataPropertyName = "CountOrder";
-            CountOrder.HeaderText = "Кол-во заказа";
-            CountOrder.Name = "CountOrder";
-            CountOrder.ReadOnly = true;
+            this.CountOrder.DataPropertyName = "CountOrder";
+            this.CountOrder.HeaderText = "Кол-во заказа";
+            this.CountOrder.Name = "CountOrder";
+            this.CountOrder.ReadOnly = true;
             // 
             // MasterOrder
             // 
-            MasterOrder.DataPropertyName = "MasterOrder";
-            MasterOrder.HeaderText = "Номер Мастера ";
-            MasterOrder.Name = "MasterOrder";
-            MasterOrder.ReadOnly = true;
+            this.MasterOrder.DataPropertyName = "MasterOrder";
+            this.MasterOrder.HeaderText = "Номер Мастера ";
+            this.MasterOrder.Name = "MasterOrder";
+            this.MasterOrder.ReadOnly = true;
             // 
             // OrderCoust
             // 
-            OrderCoust.DataPropertyName = "OrderCost";
-            OrderCoust.HeaderText = "Сумма заказа";
-            OrderCoust.Name = "OrderCoust";
-            OrderCoust.ReadOnly = true;
+            this.OrderCoust.DataPropertyName = "OrderCost";
+            this.OrderCoust.HeaderText = "Сумма заказа";
+            this.OrderCoust.Name = "OrderCoust";
+            this.OrderCoust.ReadOnly = true;
             // 
             // ProductId
             // 
-            ProductId.DataPropertyName = "ProductsID";
-            ProductId.HeaderText = "Номер продукта";
-            ProductId.Name = "ProductId";
-            ProductId.ReadOnly = true;
+            this.ProductId.DataPropertyName = "ProductsID";
+            this.ProductId.HeaderText = "Номер продукта";
+            this.ProductId.Name = "ProductId";
+            this.ProductId.ReadOnly = true;
             // 
             // idORder
             // 
-            idORder.DataPropertyName = "IDProducts";
-            idORder.HeaderText = "Номер заказа";
-            idORder.Name = "idORder";
-            idORder.ReadOnly = true;
-            idORder.Visible = false;
+            this.idORder.DataPropertyName = "IDProducts";
+            this.idORder.HeaderText = "Номер заказа";
+            this.idORder.Name = "idORder";
+            this.idORder.ReadOnly = true;
+            this.idORder.Visible = false;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(120, 131);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 23);
+            this.textBox5.TabIndex = 70;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(120, 163);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 23);
+            this.textBox6.TabIndex = 69;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(3, 166);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 15);
+            this.label5.TabIndex = 67;
+            this.label5.Text = "Номер продукта";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 105);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 15);
+            this.label6.TabIndex = 66;
+            this.label6.Text = "Номер мастера";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(120, 102);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.TabIndex = 72;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 134);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 15);
+            this.label4.TabIndex = 71;
+            this.label4.Text = "Сумма заказа";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Location = new System.Drawing.Point(653, 6);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(235, 196);
+            this.panel1.TabIndex = 73;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.addClick);
+            this.panel2.Controls.Add(this.CleareBtn);
+            this.panel2.Controls.Add(this.DeleteButton);
+            this.panel2.Controls.Add(this.Edit);
+            this.panel2.Location = new System.Drawing.Point(653, 219);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(235, 219);
+            this.panel2.TabIndex = 74;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(16, 145);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(204, 27);
+            this.button1.TabIndex = 65;
+            this.button1.Text = "Сортировка";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // OrderForms
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(900, 450);
-            Controls.Add(textBox4);
-            Controls.Add(label4);
-            Controls.Add(textBox5);
-            Controls.Add(textBox6);
-            Controls.Add(label5);
-            Controls.Add(label6);
-            Controls.Add(dataGridView1);
-            Controls.Add(CleareBtn);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(Edit);
-            Controls.Add(DeleteButton);
-            Controls.Add(addClick);
-            Name = "OrderForms";
-            Text = "Заказы";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(900, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Name = "OrderForms";
+            this.Text = "Заказы";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -312,5 +349,8 @@
         private DataGridViewTextBoxColumn OrderCoust;
         private DataGridViewTextBoxColumn ProductId;
         private DataGridViewTextBoxColumn idORder;
+        private Panel panel1;
+        private Panel panel2;
+        private Button button1;
     }
 }
