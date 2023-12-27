@@ -28,176 +28,199 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
-            SampleMaterial = new DataGridViewTextBoxColumn();
-            ColorMaterial = new DataGridViewTextBoxColumn();
-            idMaterial = new DataGridViewTextBoxColumn();
-            CleareBtn = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
-            Edit = new Button();
-            DeleteButton = new Button();
-            addClick = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SampleMaterial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColorMaterial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idMaterial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CleareBtn = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Edit = new System.Windows.Forms.Button();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.addClick = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumn1, SampleMaterial, ColorMaterial, idMaterial });
-            dataGridView1.Location = new Point(3, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(346, 453);
-            dataGridView1.TabIndex = 55;
-            dataGridView1.MouseClick += dataGridView1_MouseClick;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.SampleMaterial,
+            this.ColorMaterial,
+            this.idMaterial});
+            this.dataGridView1.Location = new System.Drawing.Point(3, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(346, 453);
+            this.dataGridView1.TabIndex = 55;
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewTextBoxColumn1.DataPropertyName = "NameMaterial";
-            dataGridViewTextBoxColumn1.HeaderText = "Имя Материала";
-            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "NameMaterial";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Имя Материала";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // SampleMaterial
             // 
-            SampleMaterial.DataPropertyName = "SampleMaterial";
-            SampleMaterial.HeaderText = "Проба материала";
-            SampleMaterial.Name = "SampleMaterial";
-            SampleMaterial.ReadOnly = true;
+            this.SampleMaterial.DataPropertyName = "SampleMaterial";
+            this.SampleMaterial.HeaderText = "Проба материала";
+            this.SampleMaterial.Name = "SampleMaterial";
+            this.SampleMaterial.ReadOnly = true;
             // 
             // ColorMaterial
             // 
-            ColorMaterial.DataPropertyName = "ColorMaterial";
-            ColorMaterial.HeaderText = "Цвет материала";
-            ColorMaterial.Name = "ColorMaterial";
-            ColorMaterial.ReadOnly = true;
+            this.ColorMaterial.DataPropertyName = "ColorMaterial";
+            this.ColorMaterial.HeaderText = "Цвет материала";
+            this.ColorMaterial.Name = "ColorMaterial";
+            this.ColorMaterial.ReadOnly = true;
             // 
             // idMaterial
             // 
-            idMaterial.DataPropertyName = "IdMaterials";
-            idMaterial.HeaderText = "Номер материала";
-            idMaterial.Name = "idMaterial";
-            idMaterial.ReadOnly = true;
-            idMaterial.Visible = false;
+            this.idMaterial.DataPropertyName = "IdMaterials";
+            this.idMaterial.HeaderText = "Номер материала";
+            this.idMaterial.Name = "idMaterial";
+            this.idMaterial.ReadOnly = true;
+            this.idMaterial.Visible = false;
             // 
             // CleareBtn
             // 
-            CleareBtn.Location = new Point(368, 324);
-            CleareBtn.Name = "CleareBtn";
-            CleareBtn.Size = new Size(108, 47);
-            CleareBtn.TabIndex = 54;
-            CleareBtn.Text = "Очистить поля";
-            CleareBtn.UseVisualStyleBackColor = true;
-            CleareBtn.Click += CleareBtn_Click;
+            this.CleareBtn.Location = new System.Drawing.Point(30, 140);
+            this.CleareBtn.Name = "CleareBtn";
+            this.CleareBtn.Size = new System.Drawing.Size(183, 25);
+            this.CleareBtn.TabIndex = 54;
+            this.CleareBtn.Text = "Очистить поля";
+            this.CleareBtn.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(503, 71);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 53;
+            this.textBox3.Location = new System.Drawing.Point(125, 82);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 23);
+            this.textBox3.TabIndex = 53;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(503, 42);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 52;
+            this.textBox2.Location = new System.Drawing.Point(125, 53);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 23);
+            this.textBox2.TabIndex = 52;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(503, 10);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 51;
+            this.textBox1.Location = new System.Drawing.Point(125, 21);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 51;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(368, 74);
-            label3.Name = "label3";
-            label3.Size = new Size(105, 15);
-            label3.TabIndex = 50;
-            label3.Text = "Проба материала";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 85);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 15);
+            this.label3.TabIndex = 50;
+            this.label3.Text = "Проба материала";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(368, 45);
-            label2.Name = "label2";
-            label2.Size = new Size(97, 15);
-            label2.TabIndex = 49;
-            label2.Text = "Цвет Материала";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 15);
+            this.label2.TabIndex = 49;
+            this.label2.Text = "Цвет Материала";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(368, 13);
-            label1.Name = "label1";
-            label1.Size = new Size(93, 15);
-            label1.TabIndex = 48;
-            label1.Text = "Имя материала";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 15);
+            this.label1.TabIndex = 48;
+            this.label1.Text = "Имя материала";
             // 
             // Edit
             // 
-            Edit.Location = new Point(368, 271);
-            Edit.Name = "Edit";
-            Edit.Size = new Size(108, 47);
-            Edit.TabIndex = 47;
-            Edit.Text = "Редактирование";
-            Edit.UseVisualStyleBackColor = true;
-            Edit.Click += Edit_Click;
+            this.Edit.Location = new System.Drawing.Point(30, 70);
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(183, 25);
+            this.Edit.TabIndex = 47;
+            this.Edit.Text = "Редактирование";
+            this.Edit.UseVisualStyleBackColor = true;
             // 
             // DeleteButton
             // 
-            DeleteButton.Location = new Point(368, 221);
-            DeleteButton.Name = "DeleteButton";
-            DeleteButton.Size = new Size(108, 44);
-            DeleteButton.TabIndex = 46;
-            DeleteButton.Text = "Удалить";
-            DeleteButton.UseVisualStyleBackColor = true;
-            DeleteButton.Click += DeleteButton_Click;
+            this.DeleteButton.Location = new System.Drawing.Point(30, 41);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(183, 23);
+            this.DeleteButton.TabIndex = 46;
+            this.DeleteButton.Text = "Удалить";
+            this.DeleteButton.UseVisualStyleBackColor = true;
             // 
             // addClick
             // 
-            addClick.Location = new Point(368, 177);
-            addClick.Name = "addClick";
-            addClick.Size = new Size(108, 38);
-            addClick.TabIndex = 45;
-            addClick.Text = "Добавить";
-            addClick.UseVisualStyleBackColor = true;
-            addClick.Click += addClick_Click;
+            this.addClick.Location = new System.Drawing.Point(30, 10);
+            this.addClick.Name = "addClick";
+            this.addClick.Size = new System.Drawing.Size(183, 25);
+            this.addClick.TabIndex = 45;
+            this.addClick.Text = "Добавить";
+            this.addClick.UseVisualStyleBackColor = true;
+            this.addClick.Click += new System.EventHandler(this.addClick_Click_1);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Location = new System.Drawing.Point(368, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(237, 161);
+            this.panel1.TabIndex = 56;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.Edit);
+            this.panel2.Controls.Add(this.CleareBtn);
+            this.panel2.Controls.Add(this.addClick);
+            this.panel2.Controls.Add(this.DeleteButton);
+            this.panel2.Location = new System.Drawing.Point(368, 247);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(237, 182);
+            this.panel2.TabIndex = 57;
             // 
             // MaterialForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(617, 450);
-            Controls.Add(dataGridView1);
-            Controls.Add(CleareBtn);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(Edit);
-            Controls.Add(DeleteButton);
-            Controls.Add(addClick);
-            Name = "MaterialForm";
-            Text = "MaterialForm";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(617, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Name = "MaterialForm";
+            this.Text = "MaterialForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -217,5 +240,7 @@
         private Button Edit;
         private Button DeleteButton;
         private Button addClick;
+        private Panel panel1;
+        private Panel panel2;
     }
 }

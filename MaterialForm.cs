@@ -116,5 +116,10 @@ namespace Kursach_Jewelry
             textBox2.Clear();
             textBox3.Clear();
         }
+
+        private void addClick_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

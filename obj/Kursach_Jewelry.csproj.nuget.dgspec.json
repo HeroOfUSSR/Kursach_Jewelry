@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexe\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {}
+    "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexe\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {
+    "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexe\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
+        "projectUniqueName": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
         "projectName": "Kursach_Jewelry",
-        "projectPath": "C:\\Users\\alexe\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
-        "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexe\\source\\repos\\Kursach_Jewelry\\obj\\",
+        "projectPath": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
+        "packagesPath": "C:\\Users\\2339-20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x84)\\MicrosoftVisualStudioShared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2339-20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

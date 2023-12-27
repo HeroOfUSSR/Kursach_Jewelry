@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Kursach_Jewelry.Migrations
 {
     [DbContext(typeof(DbContextJewelry))]
-    [Migration("20231226211820_Biba")]
-    partial class Biba
+    [Migration("20231227072650_aboba")]
+    partial class aboba
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

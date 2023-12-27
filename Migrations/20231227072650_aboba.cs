@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Kursach_Jewelry.Migrations
 {
-    public partial class Biba : Migration
+    public partial class aboba : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
