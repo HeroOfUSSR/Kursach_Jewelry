@@ -107,6 +107,7 @@
             this.CleareBtn.TabIndex = 32;
             this.CleareBtn.Text = "Очистить поля";
             this.CleareBtn.UseVisualStyleBackColor = true;
+            this.CleareBtn.Click += new System.EventHandler(this.CleareBtn_Click_1);
             // 
             // textBox3
             // 
@@ -164,6 +165,7 @@
             this.Edit.TabIndex = 25;
             this.Edit.Text = "Редактирование";
             this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click_1);
             // 
             // DeleteButton
             // 
@@ -173,6 +175,7 @@
             this.DeleteButton.TabIndex = 24;
             this.DeleteButton.Text = "Удалить";
             this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click_1);
             // 
             // addClick
             // 
@@ -182,6 +185,7 @@
             this.addClick.TabIndex = 23;
             this.addClick.Text = "Добавить";
             this.addClick.UseVisualStyleBackColor = true;
+            this.addClick.Click += new System.EventHandler(this.addClick_Click_1);
             // 
             // panel1
             // 

@@ -104,6 +104,7 @@
             this.addClick.TabIndex = 1;
             this.addClick.Text = "Добавить";
             this.addClick.UseVisualStyleBackColor = true;
+            this.addClick.Click += new System.EventHandler(this.addClick_Click_1);
             // 
             // DeleteButton
             // 
@@ -113,6 +114,7 @@
             this.DeleteButton.TabIndex = 2;
             this.DeleteButton.Text = "Удалить";
             this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click_1);
             // 
             // Edit
             // 
@@ -122,6 +124,7 @@
             this.Edit.TabIndex = 3;
             this.Edit.Text = "Редактирование";
             this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click_1);
             // 
             // label1
             // 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fuvL3zoEEmN1YXvbTlYJen0YPX4TV9cBKCU9AqAANlUNX8QlCJnf7pCZwGXSxTdEiWy6+LV0ou5xBf8RYBtD0A==",
+  "dgSpecHash": "wHrYbCfi0U5J/a3IUJ+sNMNfSEwRR9fOxggvurZhPxi9Fmpmz0sB2ThOXuEJ79I9CCdfHycTP2ylBmsQaKTvQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
+  "projectFilePath": "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2339-20\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\2339-20\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

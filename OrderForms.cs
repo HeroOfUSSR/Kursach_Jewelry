@@ -45,6 +45,50 @@ namespace Kursach_Jewelry
 
         private void addClick_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            DataGridViewRow dr = dataGridView1.SelectedRows[0];
+            textBox1.Text = dr.Cells[2].Value.ToString();
+            textBox2.Text = dr.Cells[3].Value.ToString();
+            textBox3.Text = dr.Cells[4].Value.ToString();
+            textBox4.Text = dr.Cells[5].Value.ToString();
+            textBox5.Text = dr.Cells[6].Value.ToString();
+            textBox6.Text = dr.Cells[7].Value.ToString();
+        }
+
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+   
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+      
+        }
+
+        private void CleareBtn_Click(object sender, EventArgs e)
+        {
+  
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
+            {
+
+
+                var users = db.orders.OrderByDescending(u => u.OrderCost).ToList();
+                dataGridView1.DataSource = users;
+
+
+            }
+        }
+
+        private void addClick_Click_1(object sender, EventArgs e)
+        {
             using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
             {
 
@@ -69,18 +113,7 @@ namespace Kursach_Jewelry
             }
         }
 
-        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
-        {
-            DataGridViewRow dr = dataGridView1.SelectedRows[0];
-            textBox1.Text = dr.Cells[2].Value.ToString();
-            textBox2.Text = dr.Cells[3].Value.ToString();
-            textBox3.Text = dr.Cells[4].Value.ToString();
-            textBox4.Text = dr.Cells[5].Value.ToString();
-            textBox5.Text = dr.Cells[6].Value.ToString();
-            textBox6.Text = dr.Cells[7].Value.ToString();
-        }
-
-        private void DeleteButton_Click(object sender, EventArgs e)
+        private void DeleteButton_Click_1(object sender, EventArgs e)
         {
             using (DbContextJewelry db = new(DataBaseHelper.Option()))
             {
@@ -99,7 +132,7 @@ namespace Kursach_Jewelry
             InidDatagrid();
         }
 
-        private void Edit_Click(object sender, EventArgs e)
+        private void Edit_Click_1(object sender, EventArgs e)
         {
             using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
             {
@@ -123,7 +156,20 @@ namespace Kursach_Jewelry
             InidDatagrid();
         }
 
-        private void CleareBtn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
+            {
+
+                var users = db.orders.OrderBy(m => m.OrderCost).ToList();
+                dataGridView1.DataSource = users;
+
+
+            }
+
+        }
+
+        private void CleareBtn_Click_1(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();
@@ -131,19 +177,6 @@ namespace Kursach_Jewelry
             textBox4.Clear();
             textBox5.Clear();
             textBox6.Clear();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
-            {
-
-
-                var users = db.orders.OrderByDescending(u => u.OrderCost).ToList();
-                dataGridView1.DataSource = users;
-
-
-            }
         }
     }
 }

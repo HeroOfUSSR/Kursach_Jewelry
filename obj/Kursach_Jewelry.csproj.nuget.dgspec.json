@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {}
+    "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {
+    "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
+        "projectUniqueName": "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
         "projectName": "Kursach_Jewelry",
-        "projectPath": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
+        "projectPath": "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\Kursach_Jewelry.csproj",
         "packagesPath": "C:\\Users\\2339-20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2339-20\\Source\\Repos\\Kursach_Jewelry\\obj\\",
+        "outputPath": "C:\\Users\\2339-20\\source\\repos\\Kursach_Jewelry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

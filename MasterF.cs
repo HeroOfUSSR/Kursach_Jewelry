@@ -43,6 +43,37 @@ namespace Kursach_Jewelry
 
         private void addClick_Click(object sender, EventArgs e)
         {
+        
+
+
+        }
+
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+    
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            DataGridViewRow dr = dataGridView1.SelectedRows[0];
+            textBox1.Text = dr.Cells[1].Value.ToString();
+            textBox2.Text = dr.Cells[2].Value.ToString();
+            textBox3.Text = dr.Cells[3].Value.ToString();
+
+        }
+
+        private void CleareBtn_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void addClick_Click_1(object sender, EventArgs e)
+        {
             using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
             {
 
@@ -62,11 +93,9 @@ namespace Kursach_Jewelry
 
 
             }
-
-
         }
 
-        private void DeleteButton_Click(object sender, EventArgs e)
+        private void DeleteButton_Click_1(object sender, EventArgs e)
         {
             using (DbContextJewelry db = new(DataBaseHelper.Option()))
             {
@@ -85,7 +114,7 @@ namespace Kursach_Jewelry
             InidDatagrid();
         }
 
-        private void Edit_Click(object sender, EventArgs e)
+        private void Edit_Click_1(object sender, EventArgs e)
         {
             using (DbContextJewelry db = new DbContextJewelry(DataBaseHelper.Option()))
             {
@@ -106,16 +135,7 @@ namespace Kursach_Jewelry
             InidDatagrid();
         }
 
-        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
-        {
-            DataGridViewRow dr = dataGridView1.SelectedRows[0];
-            textBox1.Text = dr.Cells[1].Value.ToString();
-            textBox2.Text = dr.Cells[2].Value.ToString();
-            textBox3.Text = dr.Cells[3].Value.ToString();
-
-        }
-
-        private void CleareBtn_Click(object sender, EventArgs e)
+        private void CleareBtn_Click_1(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();

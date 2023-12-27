@@ -54,6 +54,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -62,12 +63,13 @@
             // 
             // CleareBtn
             // 
-            this.CleareBtn.Location = new System.Drawing.Point(16, 178);
+            this.CleareBtn.Location = new System.Drawing.Point(16, 186);
             this.CleareBtn.Name = "CleareBtn";
             this.CleareBtn.Size = new System.Drawing.Size(204, 27);
             this.CleareBtn.TabIndex = 64;
             this.CleareBtn.Text = "Очистить поля";
             this.CleareBtn.UseVisualStyleBackColor = true;
+            this.CleareBtn.Click += new System.EventHandler(this.CleareBtn_Click_1);
             // 
             // textBox3
             // 
@@ -125,6 +127,7 @@
             this.Edit.TabIndex = 57;
             this.Edit.Text = "Редактирование";
             this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click_1);
             // 
             // DeleteButton
             // 
@@ -134,6 +137,7 @@
             this.DeleteButton.TabIndex = 56;
             this.DeleteButton.Text = "Удалить";
             this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click_1);
             // 
             // addClick
             // 
@@ -143,6 +147,7 @@
             this.addClick.TabIndex = 55;
             this.addClick.Text = "Добавить";
             this.addClick.UseVisualStyleBackColor = true;
+            this.addClick.Click += new System.EventHandler(this.addClick_Click_1);
             // 
             // dataGridView1
             // 
@@ -285,23 +290,34 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.addClick);
             this.panel2.Controls.Add(this.CleareBtn);
             this.panel2.Controls.Add(this.DeleteButton);
             this.panel2.Controls.Add(this.Edit);
-            this.panel2.Location = new System.Drawing.Point(653, 219);
+            this.panel2.Location = new System.Drawing.Point(653, 208);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(235, 219);
+            this.panel2.Size = new System.Drawing.Size(235, 230);
             this.panel2.TabIndex = 74;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(16, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(204, 26);
+            this.button2.TabIndex = 66;
+            this.button2.Text = "Сортировка по возрастанию";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 145);
+            this.button1.Location = new System.Drawing.Point(16, 121);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(204, 27);
             this.button1.TabIndex = 65;
-            this.button1.Text = "Сортировка";
+            this.button1.Text = "Сортировка по убыванию";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -352,5 +368,6 @@
         private Panel panel1;
         private Panel panel2;
         private Button button1;
+        private Button button2;
     }
 }

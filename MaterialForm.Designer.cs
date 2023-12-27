@@ -66,6 +66,7 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(346, 453);
             this.dataGridView1.TabIndex = 55;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -104,6 +105,7 @@
             this.CleareBtn.TabIndex = 54;
             this.CleareBtn.Text = "Очистить поля";
             this.CleareBtn.UseVisualStyleBackColor = true;
+            this.CleareBtn.Click += new System.EventHandler(this.CleareBtn_Click_1);
             // 
             // textBox3
             // 
@@ -161,6 +163,7 @@
             this.Edit.TabIndex = 47;
             this.Edit.Text = "Редактирование";
             this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click_1);
             // 
             // DeleteButton
             // 
@@ -170,6 +173,7 @@
             this.DeleteButton.TabIndex = 46;
             this.DeleteButton.Text = "Удалить";
             this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click_1);
             // 
             // addClick
             // 
